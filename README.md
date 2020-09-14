@@ -1,0 +1,3 @@
+# hw3d
+
+This is a sample Direct3D C++ project (Visual Studio 2019 solution) created from an *Empty C++ Project* following the YouTube tutorial playlist [**C++ 3D DirectX Programming**](https://www.youtube.com/watch?v=_4FArgOX1I4&list=PLqCJpWy5Fohd3S7ICFXwUomYW0Wv67pDD&index=1). As a result it should be similar to [**the tutorial's repository**](https://github.com/planetchili/hw3d) at the point in the tutorial I have reached.
