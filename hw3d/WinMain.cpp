@@ -48,10 +48,12 @@ LRESULT CALLBACK WndProc(
 		}
 		break;
 	case WM_LBUTTONDOWN: // Left mouse button click
-		const POINTS pt = MAKEPOINTS(lParam);
-		std::wstringstream wss;
-		wss << "(" << pt.x << "," << pt.y << ")";
-		SetWindowText(hwnd, wss.str().c_str());
+		{
+			const POINTS pt = MAKEPOINTS(lParam);
+			std::wstringstream wss;
+			wss << "(" << pt.x << "," << pt.y << ")";
+			SetWindowText(hwnd, wss.str().c_str());
+		}
 		break;
 	}
 	return DefWindowProc(hwnd, uMsg, wParam, lParam);
